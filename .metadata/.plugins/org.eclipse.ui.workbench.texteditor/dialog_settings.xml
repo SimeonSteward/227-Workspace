@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="447" key="DIALOG_X_ORIGIN"/>
+		<item value="273" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="getTactics" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="getTactics"/>
+			<item value="getSpeed"/>
+			<item value="chance"/>
+			<item value="test"/>
+			<item value="abstract"/>
+			<item value="Arrays.sort(dice);"/>
+			<item value="DieComparator comp = new DieComparator();"/>
+			<item value="fixedDice"/>
+			<item value="rand"/>
+			<item value="findRightMostMovableCell"/>
+			<item value="findRightMostOpenCell"/>
+			<item value="findRightMostCell"/>
+			<item value="System"/>
+			<item value="system"/>
+			<item value="syso"/>
+		</list>
+		<list key="replacehistory">
+			<item value="getWeight"/>
+			<item value="getSkill"/>
+			<item value="getAgility"/>
+			<item value="getTactics"/>
+			<item value="getStrength"/>
+			<item value="Arrays.sort(dice,comp);"/>
+			<item value="availableDice"/>
+			<item value="findRightmostMovableCell"/>
+			<item value="col"/>
+			<item value="relativeDiscriptors.get(descriptors.length - 2).getIndex()"/>
+			<item value="state"/>
+			<item value="updateWins();"/>
+			<item value="updateWins()"/>
+			<item value="ballStatus"/>
+			<item value="actionPlayOrder"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="852" key="DIALOG_X_ORIGIN"/>
+		<item value="290" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

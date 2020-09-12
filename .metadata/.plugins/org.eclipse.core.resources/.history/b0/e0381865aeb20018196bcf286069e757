@@ -1,0 +1,44 @@
+package hw1;
+
+public class Printer {
+	 /**
+	 * Capacity, in ounces, of a new ink cartridge.
+	 */
+	 public static final double INK_CAPACITY = 2.0;
+
+	 /**
+	 * Amount of ink, in ounces, used per printed page.
+	 */
+	 public static final double INK_USAGE = 0.0023;
+	 
+	 /**
+	  * Constructs a printer that has the given capacity (number of sheets of paper it can hold). Initially it contains no paper and a full ink cartridge.
+	  * @param givenCapacity
+	  */
+	 public Printer(int givenCapacity) {
+		 //TODO
+	 }
+	 
+	 /**
+	  * Constructs a printer that has the given capacity (number of sheets of paper it can hold). Initially it contains the given number of sheets of paper and a full ink cartridge. 
+	  * @param givenCapacity
+	  * @param givenNumberOfSheets
+	  */
+	 public Printer(int givenCapacity, int givenNumberOfSheets) {
+		 //TODO
+	 }
+	 /**
+	  * Adds the given number of sheets of paper to this printer, not exceeding the printer's
+capacity.
+	  * @param additionalSheets
+	  */
+	 public void addPaper(int additionalSheets) {
+		 
+	 }
+	 Returns the number of sheets of paper currently in this printer. This value is never
+	 negative.
+	 public int getCurrentPaper() {
+		 //TODO
+		 return 1;
+	 }
+}

@@ -1,0 +1,18 @@
+MemberFilterActionGroup.org.eclipse.jdt.ui.JavaOutlinePage.1=true
+MemberFilterActionGroup.org.eclipse.jdt.ui.JavaOutlinePage.8=true
+command=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin/javadoc
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Card"><rhs name\="Card"/></lhs><lhs name\="api.Cell"><rhs name\="api.Cell"/></lhs><lhs name\="java.lang.Enum"><rhs name\="api.Direction"/></lhs><lhs name\="api.Direction"><rhs name\="api.Direction"/></lhs><lhs name\="hw4.Hand"><rhs name\="hw4.Hand"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=14
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,16 @@
+package mini1;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		//findNth Tests
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 's', 1)); //2
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 's', 4)); //6
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 's', 5)); //-1
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 'w', 1)); //-1
+		System.out.println();
+		
+		//findStoppingTime Tests
+		System.out.println(KeepMeInTheLoop.findStoppingTime(6));
+	}
+}

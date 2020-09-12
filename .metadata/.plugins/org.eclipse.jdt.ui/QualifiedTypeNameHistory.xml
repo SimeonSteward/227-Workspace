@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Card"/>
+<fullyQualifiedTypeName name="java.util.AbstractCollection"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="mini1.KeepMeInTheLoop"/>
+<fullyQualifiedTypeName name="mini2.HipHipArray"/>
+<fullyQualifiedTypeName name="ui.ConsoleUI"/>
+<fullyQualifiedTypeName name="api.Descriptor"/>
+<fullyQualifiedTypeName name="api.Cell"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="api.Direction"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="api.StringUtil"/>
+<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="hw4.Hand"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="hw4.api.ScoringCategory"/>
+<fullyQualifiedTypeName name="hw4.SmallStraight"/>
+<fullyQualifiedTypeName name="hw4.LargeStraight"/>
+<fullyQualifiedTypeName name="hw4.AllOfAKind"/>
+<fullyQualifiedTypeName name="hw4.AllButOneOfAKind"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="hw4.AllPrimes"/>
+<fullyQualifiedTypeName name="hw4.CountOccurrences"/>
+<fullyQualifiedTypeName name="hw4.AllButTwoOfAKind"/>
+<fullyQualifiedTypeName name="hw4.FullHouse"/>
+<fullyQualifiedTypeName name="hw4.Chance"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="simulator.Animal"/>
+</qualifiedTypeNameHistroy>

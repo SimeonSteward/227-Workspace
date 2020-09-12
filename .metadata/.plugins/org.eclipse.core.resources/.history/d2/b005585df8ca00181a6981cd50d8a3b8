@@ -1,0 +1,11 @@
+package mini1;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 's', 1)); //2
+	}
+//	KeepMeInTheLoop.findNth("mississippi", 's', 1); returns 2
+//	findNth("mississippi", 's', 4) returns 6
+//	findNth("mississippi", 's', 5) returns -1
+//	findNth("mississippi", 'w', 1) returns -1
+}

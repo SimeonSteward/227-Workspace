@@ -1,0 +1,49 @@
+package mini1;
+
+public class KeepMeInTheLoop {
+
+	public static int findNth(String s, char ch, int n) {
+		int b=0;
+		for (int i = 0; i < s.length()-1; i++) {
+			if (s.charAt(i)==ch) {
+				b++;
+				if (b == n) {
+					return i;
+				}
+			}
+		}
+		return -1;
+		// TODO
+	}
+
+	public static int findStoppingTime(int n) {
+		return 0;
+	}
+	// TODO
+
+	public static int howLong(double balance, double monthlyCost, double interestRate, double increase) {
+		return 0;
+		// TODO
+	}
+
+	public static boolean isIBeforeE(String s) {
+		return false;
+		// TODO
+	}
+
+	public static int findSecondLargest(String nums) {
+		return 0;
+		// TODO
+	}
+
+	public static boolean isPermutation(String s, String t) {
+		return false;
+		// TODO
+	}
+
+	public static boolean containsWithGaps(String source, String target) {
+		return false;
+		//TODO
+	}
+
+}

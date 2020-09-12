@@ -1,0 +1,29 @@
+package mini1;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		//findNth Tests
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 's', 1)); //2
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 's', 4)); //6
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 's', 5)); //-1
+		System.out.println(KeepMeInTheLoop.findNth("mississippi", 'w', 1)); //-1
+		System.out.println();
+		
+		//findStoppingTime Tests
+		System.out.println(KeepMeInTheLoop.findStoppingTime(6)); //8
+		System.out.println(KeepMeInTheLoop.findStoppingTime(0)); //-1
+		System.out.println();
+		
+		//howLong Tests
+		System.out.println(KeepMeInTheLoop.howLong(100000, 1000, .005, 40)); //55
+		
+		//isIBeforeE
+		System.out.println(KeepMeInTheLoop.isIBeforeE("banana")); //true
+		System.out.println(KeepMeInTheLoop.isIBeforeE("conceive")); //true
+		System.out.println(KeepMeInTheLoop.isIBeforeE("ieicei"));
+		System.out.println(KeepMeInTheLoop.isIBeforeE("caei"));
+		System.out.println(KeepMeInTheLoop.isIBeforeE("weigh"));
+		
+	}
+}

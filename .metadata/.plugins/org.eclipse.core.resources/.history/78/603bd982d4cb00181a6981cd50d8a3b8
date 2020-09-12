@@ -1,0 +1,113 @@
+package mini1;
+
+import java.util.Scanner;
+
+public class KeepMeInTheLoop {
+
+	public static int findNth(String s, char ch, int n) {
+		int b = 0;
+		for (int i = 0; i < s.length() - 1; i++) {
+			if (s.charAt(i) == ch) {
+				b++;
+				if (b == n) {
+					return i;
+				}
+			}
+		}
+		return -1;
+	}
+
+	public static String doubleConsonants(String s) {
+		String newString = "";
+		for (int i = 0; i < s.length() - 1; i++) {
+			if (-1 < "aeiouAEIOU".lastIndexOf(s.charAt(i))) { // is a vowel?
+				newString = newString + s.charAt(i);
+			} else {
+				newString = newString + s.charAt(i) + s.charAt(i);
+				if (s.charAt(i) == s.charAt(i + 1)) {
+					i++;
+				}
+			}
+		}
+		return newString;
+	}
+
+	public static int findStoppingTime(int n) {
+		if (n > 0) {
+			int i = 0;
+			while (n != 1) {
+				i++;
+				if ((n % 2) == 0) {
+					n /= 2;
+				} else {
+					n = 3 * n + 1;
+				}
+			}
+			return i;
+		} else {
+			return -1;
+		}
+	}
+
+	public static int howLong(double balance, double monthlyCost, double interestRate, double increase) {
+		double currentBalance = balance;
+		int months = 0;
+		while ((currentBalance - (monthlyCost + months * increase)) > 0) {
+
+			currentBalance -= monthlyCost + months * increase;
+			currentBalance += interestRate * currentBalance;
+			months++;
+		}
+		return months;
+	}
+
+	public static boolean isIBeforeE(String s) {
+		for (int i = 1; i < s.length() - 1; i++) {
+			if (s.charAt(i) == 'e') {
+				if ((s.charAt(i + 1) == 'i') && ((s.charAt(i - 1) != 'c'))) {
+					return false;
+				}
+			}
+			if (s.charAt(i) == 'i') {
+				if ((s.charAt(i + 1) == 'e') && ((s.charAt(i - 1) == 'c'))) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+
+	public static int findSecondLargest(String nums) {
+		Scanner s = new Scanner(nums);
+		int largest = 0;
+		int secondLargest = 0;
+		while (s.hasNextInt()) {
+			int temp = s.nextInt();
+			if (temp > largest) {
+				largest = temp;
+			} else if (temp > secondLargest) {
+				secondLargest = temp;
+			}
+		}
+		s.close();
+		return secondLargest;
+	}
+
+	public static boolean isPermutation(String s, String t) {
+		if (s.length() == t.length()) {
+			for (int i = 0; i < s.length() - 1; i++) {
+
+			}
+
+		}
+
+		return false;
+		// TODO
+	}
+
+	public static boolean containsWithGaps(String source, String target) {
+		return false;
+		// TODO
+	}
+
+}
